@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{ 
+    .commonIcon{ 
+        @apply bg-white border-[1px] border-[#5D9FED] w-[112px] h-[112px] rounded-md flex-none p-5
+    }
+
+    .commonProcess{ 
+        @apply bg-white border-[1px] border-[#5D9FED]  w-full h-[112px] rounded-md p-5 overflow-auto
+    }
+    .commonTitle{ 
+        @apply text-xl font-semibold text-slate-900
+    }
+    .commonDesc{ 
+        @apply text-sm text-slate-900
+    }
+}
